@@ -1,0 +1,2 @@
+server:  port: 80  eureka:  client:    register-with-eureka: false #服务注册中心也会将自己作为客户端来尝试注册自己,为true（默认）时自动生效    service-url:      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+      
