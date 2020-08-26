@@ -22,7 +22,7 @@ public class DeptController_Consumer {
 	}
 	
 	@RequestMapping(value = "/consumer/dept/get/{id}")
-	public Dept get(@PathVariable Long id) {
+	public Dept get(@PathVariable("id") Long id) {
 		return this.service.get(id);
 	}
 	
